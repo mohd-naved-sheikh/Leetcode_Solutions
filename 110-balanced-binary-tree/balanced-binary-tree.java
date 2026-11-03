@@ -24,7 +24,7 @@ class Solution {
     }
 
     public int height(TreeNode root) {
-        if(root==null) return 1;
+        if(root==null) return 0;
         int leftHeight = height(root.left);
         int rightHeight = height(root.right);
         if(leftHeight==-1 || rightHeight==-1){
